@@ -4,6 +4,7 @@ function haveEnough(yourMoney, apple, bread, applePrice, breadPrice) {
 	bread = parseFloat(bread);
 	applePrice = parseFloat(applePrice);
 	breadPrice = parseFloat(breadPrice);
+	
 	if (yourMoney >= (applePrice * apple + breadPrice * bread)) {
 		return('Вам хватает денег на покупки');
 	}else {
