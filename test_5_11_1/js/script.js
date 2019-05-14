@@ -1,12 +1,13 @@
 let names = [
-[
-['куры', 'гуси', 'павлины'],
-['сокол', 'орел', 'соловей']
-],
-[
-['собака', 'кошка'],
-['обезьяна', 'рысь']
-]
+	[
+		['куры', 'гуси', 'павлины'],
+		['сокол', 'орел', 'соловей']
+	],
+	[
+		['собака', 'кошка'],
+		['обезьяна', 'рысь']
+	],
+	['hhhh']
 ]
 
 console.log(names);
@@ -26,6 +27,7 @@ for (name of animal) {
 */
 
 
+/*
 function ArrayCut(x) {
 	let y = [];
 	x.forEach(function(item) {
@@ -42,3 +44,13 @@ while (Array.isArray(names[0]) == true) {
  names.forEach(function(item) {
  	console.log(item);
  })
+ */
+
+ for (parentArray of names) {
+  for (group of parentArray) {
+    group.forEach(animal => {
+      console.log(animal);
+    })
+  }
+}
+
