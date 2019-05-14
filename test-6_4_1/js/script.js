@@ -20,7 +20,7 @@ form.onsubmit = function(e) {
 		var DATA = JSON.parse(xhr.responseText);
 		console.log(DATA);
 		div.style.opacity = 1;
-		result.innerHTML = 'Температура воздуха ' + Math.floor(DATA.main.temp - 273) + ' градусов.' +'<br> Давление ' + Math.floor(DATA.main.pressure*0.750063755419211) + ' мм рт.ст.';
+		result.innerHTML = 'Температура воздуха ' + Math.floor(DATA.main.temp - 273) + ' градусов' +'<br> Давление ' + Math.floor(DATA.main.pressure*0.750063755419211) + ' мм рт.ст.' + '<br> Скорость ветра ' + DATA.wind.speed + ' м/с';
 	}
 
 }

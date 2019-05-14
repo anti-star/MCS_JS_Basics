@@ -47,7 +47,7 @@ input[type='submit'] {
 
 .resultBox {
 	width: 448px;
-	height: 80px;
+	height: 90px;
 	background-color: rgba(255, 255, 255, .8);
 	opacity: 0;
 	display: flex;
@@ -55,5 +55,5 @@ input[type='submit'] {
 
 p {
 	line-height: 22px;
-	margin: auto;
+	margin: auto 22px;
 }
