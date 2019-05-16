@@ -57,3 +57,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	opacity: .8;
 }
+
+.icon {
+	height: 100px;
+	width: 100px;
+	background-size: contain; 
+}
